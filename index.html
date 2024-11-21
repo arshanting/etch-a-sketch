@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <div class="input-grid-size">
+          <input
+            id="gridSize"
+            class="form-control"
+            type="text"
+            max="100"
+            maxlength="3"
+            placeholder="Enter size (Ex. 16)"
+          />
+        </div>
+        <button id="generateGrid" type="button">Generate</button>
+        <button id="paint" class="outline" type="button">Paint</button>
+        <button id="rainbow" class="outline" type="button">Rainbow</button>
+        <button id="eraseBox" class="outline" type="button">Erase</button>
+        <button id="resetGrid" class="outline" type="button">Reset</button>
+      </div>
+      <div class="content">
+        <div class="banner">
+          <h1>Etch a Sketch</h1>
+        </div>
+        <div class="grid-container"></div>
+      </div>
+    </div>
+    <!-- scripts -->
+    <script src="script.js"></script>
+  </body>
+</html>
